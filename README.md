@@ -15,6 +15,17 @@ Este proyecto consume la API pública de **Rick and Morty**, almacena los datos 
 - **Sin autenticación requerida**
 
 ## Estructura del proyecto
+```
+Taller3_MongoDB/
+├── ingesta.py                       # Script de extracción y carga a MongoDB
+├── analisis.ipynb                   # Notebook con el EDA completo
+├── grafica_torta_status.png         # Gráfica: distribución por estado
+├── grafica_barras_especies.png      # Gráfica: top especies
+├── grafica_histograma_episodios.png # Gráfica: episodios por personaje
+├── requirements.txt                 # Librerías necesarias
+├── .gitignore                       # Archivos excluidos
+└── README.md                        # Este archivo
+```
 
 
 ## Cómo ejecutar
